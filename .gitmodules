@@ -7,3 +7,33 @@
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "claude-design-skills/skills/anthropic-skills"]
+	path = claude-design-skills/skills/anthropic-skills
+	url = https://github.com/anthropics/skills.git
+[submodule "claude-design-skills/skills/ui-ux-pro-max"]
+	path = claude-design-skills/skills/ui-ux-pro-max
+	url = https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+[submodule "claude-design-skills/skills/taste-skill"]
+	path = claude-design-skills/skills/taste-skill
+	url = https://github.com/Leonxlnx/taste-skill.git
+[submodule "claude-design-skills/skills/impeccable"]
+	path = claude-design-skills/skills/impeccable
+	url = https://github.com/pbakaus/impeccable.git
+[submodule "claude-design-skills/skills/emil-kowalski"]
+	path = claude-design-skills/skills/emil-kowalski
+	url = https://github.com/emilkowalski/skills.git
+[submodule "claude-design-skills/skills/hallmark"]
+	path = claude-design-skills/skills/hallmark
+	url = https://github.com/Nutlope/hallmark.git
+[submodule "claude-design-skills/skills/interface-design"]
+	path = claude-design-skills/skills/interface-design
+	url = https://github.com/Dammyjay93/interface-design.git
+[submodule "claude-design-skills/skills/oil-ui"]
+	path = claude-design-skills/skills/oil-ui
+	url = https://github.com/oil-oil/oil-ui.git
+[submodule "claude-design-skills/skills/superdesign"]
+	path = claude-design-skills/skills/superdesign
+	url = https://github.com/superdesigndev/superdesign-skill.git
+[submodule "claude-design-skills/skills/refactoring-ui"]
+	path = claude-design-skills/skills/refactoring-ui
+	url = https://github.com/edisonmbli/refactoring-ui-skill.git
