@@ -53,14 +53,16 @@ Fetch the skills (from the repo root):
 git submodule update --init --depth 1 claude-design-skills/skills
 ```
 
-Copy every skill folder (each one with a `SKILL.md`) into `~/.claude/skills/`:
+Copy the 32 curated skills into `~/.claude/skills/`:
 
 ```sh
 ./claude-design-skills/install.sh            # all projects
 ./claude-design-skills/install.sh .claude/skills   # or a specific folder
 ```
 
-If two repos ship a skill with the same name, the one installed later wins. The script prints each skill it copies.
+The script installs a fixed list of skill folders rather than every `SKILL.md`, because impeccable ships a copy for each editor and anthropics/skills includes non-design skills (docx, pdf and so on). Each skill keeps its upstream license.
+
+This repo already has them installed in `.claude/skills/`, so Claude Code picks them up in this project with no setup.
 
 To update every skill to its latest commit:
 
